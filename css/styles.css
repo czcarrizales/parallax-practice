@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+.jumbotron {
+    background-image: url('/parallax-practice/img/yellowheaven.jpg');
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.jumbotron h1 {
+    font-size: 100px;
+    color: white;
+}

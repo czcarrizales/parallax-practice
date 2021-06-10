@@ -1,17 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .jumbotron {
-    background-image: url('/parallax-practice/img/yellowheaven.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url('/parallax-practice/img/roadtrip.jpg') no-repeat fixed center;
     background-size: cover;
-    min-height: 500px;
+    overflow: hidden;
+    min-height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Stint Ultra Condensed', cursive;
+    margin: 0;
+}
+
+.jumbo2 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url('/parallax-practice/img/hitchhiker.jpg') no-repeat fixed center;
+    min-height: 900px;
+}
+
+.jumbo3 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url('/parallax-practice/img/walking-city.jpg') no-repeat fixed center;
+    min-height: 900px;
+}
+
+.jumbo4 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url('/parallax-practice/img/walking-forest.jpg') no-repeat fixed center;
+    min-height: 900px;
+}
+
+.jumbo5 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0, 0, 0, 0.6)), url('/parallax-practice/img/walking-road.jpg') no-repeat fixed center;
+    min-height: 900px;
 }
 
 .jumbotron h1 {
     font-size: 100px;
     color: white;
+}
+
+.section-text {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)) no-repeat fixed center;
+    margin: 0 150px;
+    padding: 100px 25px;
+}
+
+footer {
+    background-color: red;
+    display: flex;
+    min-height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.social-media-icons {
+    display: flex;
+    min-width: 15%;
+    font-size: 50px;
+    justify-content: space-between;
 }
